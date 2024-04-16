@@ -1,27 +1,38 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
 .back{
-    border: 2px solid black;
     width: 360px;
     margin: auto;
-}
-/* .menu-logo{
-    margin-top: 56px;
-} */
-.size-block{
-    padding-top: 56px; 
-    padding-left: 24px;
     padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    font-family: Inter, sans-serif;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gamburgerButton {
+    margin-left: 6px;
 }
 .title{
     font-size: 32px;
+    margin: 0;
     margin-top: 23px;
-    margin-bottom: 17px;
+    font-weight: 600;
 }
 .search{
-    margin-left: 24px;
-    /* margin-top: 17px; */
+    margin-top: 17px;
     border-radius: 12px;
     padding: 15px;
     background-color: rgba(239, 239, 239, 1);
+    width: 100%;
+    outline: none;
+    border: none;
 }
 .food{
     width: 74px;
@@ -37,12 +48,58 @@
 .category{
     width: 74px;
     height: 101px;
-    margin-left: 24px;
-    margin-top: 29px;
+    display: inline-block;
+    margin-right: 24px;
 }
 .text-block{
     font-size: 16px;
     padding-top: 8px;
     margin: 0px;
     text-align: center;
+    font-weight: 500;
+}
+
+.burgersTitle {
+    font-weight: 500;
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.categoriesContainer {
+    margin-top: 29px;
+}
+
+.disabled.category .food .image img {
+    opacity: 0.5;
+}
+
+.disabled.category .food {
+    background: #EFEFEF;
+}
+.disabled.category .food:hover {
+background-color:  rgba(234, 226, 183, 1);
+}
+.disabled.category .text-block {
+    color: #C4C4C4;
+}
+
+.burgerItem {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0px 0px 4px 0px #E5E5E5;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 13.5px;
+    display: flex;
+    /* vertical-align: top; */
+    align-items: center;
+    column-gap: 12px;
+    /* padding: 12px; */
+}
+
+.burgerPrice {
+    margin-top: 8px;
+    color: #D62828;
 }
