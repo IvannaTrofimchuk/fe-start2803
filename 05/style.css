@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    column-gap: 10px;
+}
+
+.spriteButton {
+    background-image: url(./sprite-icons.jpg);
+    background-position: left 0px top 0px;
+}
+.spriteButton:hover {
+    background-position: left 0px top -84px;
+}
+
+.spriteButton.disabled {
+    background-position: left 0px top -168px;
+}
+.spriteButton.disabled:hover {
+    background-position: left 0px top -168px;
+}
+
+.spriteButton,
+.faButton {
+    width: 84px;
+    height: 84px;
+    border: none;
+    cursor: pointer;
+}
+
+.disabled.spriteButton,
+.disabled.faButton {
+    cursor: initial;
+}
+
+.faButton {
+    font-size: 75px;
+    background: none;
+    color: rgb(0, 114, 254);
+}
+
+.faButton.disabled {
+    color: grey;
+}
