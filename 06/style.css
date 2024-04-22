@@ -1,0 +1,181 @@
+body {
+    height: 100vh;
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-color: #0F1219;
+    overflow-x: hidden;
+    padding-top: 42px;
+    padding-left: 80px;
+    padding-right: 33px;
+    font-family: Inter, sans-serif;
+    color: white;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.divider {
+    background-color: white;
+}
+
+.divider {
+    height: 28px;
+    width: 3px;
+}
+
+.header .divider {
+    margin-left: 16px;
+    margin-right: 26px;
+    height: 28px;
+    width: 3px;
+}
+
+.header .search {
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.content {
+    margin-top: 115px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 53px;
+}
+
+.genres {
+    font-weight: 500;
+    font-size: 32px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.genres .divider {
+    height: 35px;
+    width: 3px;
+}
+
+.showTitle {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+.episodes {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    column-gap: 25px;
+    text-wrap: nowrap;
+}
+.episodes .divider {
+    height: 23px;
+}
+
+.shortInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.episodes .grey {
+    color: #A7A6A6;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 24px;
+    color: #A7A6A6;
+}
+
+.rate {
+    display: flex;
+    column-gap: 14px;
+}
+
+.movieActions {
+    display: flex;
+    column-gap: 50px;
+}
+
+.streamNowBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 17px;
+    padding: 16px 34px;
+    background-color: #D40D1F;
+}
+
+.allEpisodesBtn {
+    border: 3px solid white;
+    background: none;
+    font-weight: 500;
+    padding: 16px 58px;
+}
+
+.trends .actions {
+    display: flex;
+    align-items: center;
+}
+
+.trends .actions .title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.trends .actions .rightArrow {
+    margin-left: auto;
+    margin-right: 24px;
+}
+.trends .actions .rightArrow,
+.trends .actions .leftArrow {
+    background: none;
+}
+
+.films {
+    display: flex;
+    margin-top: 32px;
+    column-gap: 40px;
+}
+
+.films .card {
+    height: 210px;
+}
+
+.audienceRate {
+    position: absolute;
+    bottom: 103px;
+    right: 0;
+    width: 174px;
+    height: 66px;
+    display: flex;
+}
+
+.audienceRate .redBlock {
+    background: #D40D1F;
+    width: 33px;
+}
+
+.audienceRate .greyBlock {
+    background: #808488;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-left: 26px;
+}
